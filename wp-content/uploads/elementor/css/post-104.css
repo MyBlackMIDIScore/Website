@@ -1,0 +1,9 @@
+.elementor-104 .elementor-element.elementor-element-0359f4c .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:last-child) {padding-bottom: calc(7px / 2);}
+.elementor-104 .elementor-element.elementor-element-0359f4c .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:first-child) {margin-top: calc(7px / 2);}
+.elementor-104 .elementor-element.elementor-element-0359f4c .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item {margin-right: calc(7px / 2);margin-left: calc(7px / 2);}
+.elementor-104 .elementor-element.elementor-element-0359f4c .elementor-icon-list-items.elementor-inline-items {margin-right: calc(-7px / 2);margin-left: calc(-7px / 2);}
+body.rtl .elementor-104 .elementor-element.elementor-element-0359f4c .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after {left: calc(-7px / 2);}
+body:not(.rtl) .elementor-104 .elementor-element.elementor-element-0359f4c .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after {right: calc(-7px / 2);}
+.elementor-104 .elementor-element.elementor-element-0359f4c .elementor-icon-list-icon i {font-size: 14px;}
+.elementor-104 .elementor-element.elementor-element-0359f4c .elementor-icon-list-icon svg {width: 14px;}
+.elementor-104 .elementor-element.elementor-element-0359f4c .elementor-icon-list-item {font-family: "Abel",Sans-serif;font-size: 29px;}
