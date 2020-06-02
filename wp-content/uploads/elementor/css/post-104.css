@@ -1,9 +1,15 @@
-.elementor-104 .elementor-element.elementor-element-0359f4c .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:last-child) {padding-bottom: calc(7px / 2);}
-.elementor-104 .elementor-element.elementor-element-0359f4c .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:first-child) {margin-top: calc(7px / 2);}
-.elementor-104 .elementor-element.elementor-element-0359f4c .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item {margin-right: calc(7px / 2);margin-left: calc(7px / 2);}
-.elementor-104 .elementor-element.elementor-element-0359f4c .elementor-icon-list-items.elementor-inline-items {margin-right: calc(-7px / 2);margin-left: calc(-7px / 2);}
-body.rtl .elementor-104 .elementor-element.elementor-element-0359f4c .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after {left: calc(-7px / 2);}
-body:not(.rtl) .elementor-104 .elementor-element.elementor-element-0359f4c .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after {right: calc(-7px / 2);}
-.elementor-104 .elementor-element.elementor-element-0359f4c .elementor-icon-list-icon i {font-size: 14px;}
-.elementor-104 .elementor-element.elementor-element-0359f4c .elementor-icon-list-icon svg {width: 14px;}
-.elementor-104 .elementor-element.elementor-element-0359f4c .elementor-icon-list-item {font-family: "Abel",Sans-serif;font-size: 29px;}
+.elementor-104 .elementor-element.elementor-element-046c7ab .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:last-child) {padding-bottom: calc(8px / 2);}
+.elementor-104 .elementor-element.elementor-element-046c7ab .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:first-child) {margin-top: calc(8px / 2);}
+.elementor-104 .elementor-element.elementor-element-046c7ab .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item {margin-right: calc(8px / 2);margin-left: calc(8px / 2);}
+.elementor-104 .elementor-element.elementor-element-046c7ab .elementor-icon-list-items.elementor-inline-items {margin-right: calc(-8px / 2);margin-left: calc(-8px / 2);}
+body.rtl .elementor-104 .elementor-element.elementor-element-046c7ab .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after {left: calc(-8px / 2);}
+body:not(.rtl) .elementor-104 .elementor-element.elementor-element-046c7ab .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after {right: calc(-8px / 2);}
+.elementor-104 .elementor-element.elementor-element-046c7ab .elementor-icon-list-item:not(:last-child):after {content: "";border-color: #ddd;}
+.elementor-104 .elementor-element.elementor-element-046c7ab .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:last-child):after {border-top-style: solid;border-top-width: 1px;}
+.elementor-104 .elementor-element.elementor-element-046c7ab .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:not(:last-child):after {border-left-style: solid;}
+.elementor-104 .elementor-element.elementor-element-046c7ab .elementor-inline-items .elementor-icon-list-item:not(:last-child):after {border-left-width: 1px;}
+.elementor-104 .elementor-element.elementor-element-046c7ab .elementor-icon-list-icon i {color: #5d5d5d;font-size: 24px;}
+.elementor-104 .elementor-element.elementor-element-046c7ab .elementor-icon-list-icon svg {fill: #5d5d5d;width: 24px;}
+.elementor-104 .elementor-element.elementor-element-046c7ab .elementor-icon-list-item:hover .elementor-icon-list-text {color: #a47000;}
+.elementor-104 .elementor-element.elementor-element-046c7ab .elementor-icon-list-text {padding-left: 12px;}
+.elementor-104 .elementor-element.elementor-element-046c7ab .elementor-icon-list-item {font-family: "Oxygen",Sans-serif;font-size: 27px;}
