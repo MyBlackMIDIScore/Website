@@ -5968,3 +5968,7 @@ body.boxed .page-content.single-post, body.boxed .page-content.single-page {padd
 	.comment-content:before {left: -15px;}
 	.wp-block-media-text {display: block;}
 	.page-content .type-post .entry-header .entry-title>a, .page-search-content .type-post .entry-header .entry-title>a, .type-post .entry-header .entry-title {font-size: 18px !important;}}
+.header_s {position: relative;}
+.header-image-wrap .header-lmage {width: 100%;}
+.header-image-wrap {position: absolute;overflow: hidden;left: 0;right: 0;bottom: 0;top: 0;}
+.menu-toggle, .header_s .menu-block {position: relative;}
