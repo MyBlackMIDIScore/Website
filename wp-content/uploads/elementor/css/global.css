@@ -4,7 +4,7 @@
 .elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap {background-color: var(--e-global-color-primary);}
 .elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap, .elementor-widget-text-editor.elementor-drop-cap-view-default .elementor-drop-cap {color: var(--e-global-color-primary);border-color: var(--e-global-color-primary);}
 .elementor-widget-button .elementor-button {font-family: var(--e-global-typography-accent-font-family);font-weight: var(--e-global-typography-accent-font-weight);background-color: var(--e-global-color-accent);}
-.elementor-widget-divider {--divider-border-color: var(--e-global-color-secondary);}
+.elementor-widget-divider {--divider-color: var(--e-global-color-secondary);}
 .elementor-widget-divider .elementor-divider__text {color: var(--e-global-color-secondary);font-family: var(--e-global-typography-secondary-font-family);font-weight: var(--e-global-typography-secondary-font-weight);}
 .elementor-widget-divider.elementor-view-stacked .elementor-icon {background-color: var(--e-global-color-secondary);}
 .elementor-widget-divider.elementor-view-framed .elementor-icon, .elementor-widget-divider.elementor-view-default .elementor-icon {color: var(--e-global-color-secondary);border-color: var(--e-global-color-secondary);}
