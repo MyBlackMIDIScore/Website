@@ -49,7 +49,6 @@
 .fa-address-card:before {content: "";}
 .fa-adjust:before {content: "";}
 .fa-adn:before {content: "";}
-.fa-adobe:before {content: "";}
 .fa-adversal:before {content: "";}
 .fa-affiliatetheme:before {content: "";}
 .fa-air-freshener:before {content: "";}
@@ -124,6 +123,8 @@
 .fa-backspace:before {content: "";}
 .fa-backward:before {content: "";}
 .fa-bacon:before {content: "";}
+.fa-bacteria:before {content: "";}
+.fa-bacterium:before {content: "";}
 .fa-bahai:before {content: "";}
 .fa-balance-scale:before {content: "";}
 .fa-balance-scale-left:before {content: "";}
@@ -187,6 +188,7 @@
 .fa-bowling-ball:before {content: "";}
 .fa-box:before {content: "";}
 .fa-box-open:before {content: "";}
+.fa-box-tissue:before {content: "";}
 .fa-boxes:before {content: "";}
 .fa-braille:before {content: "";}
 .fa-brain:before {content: "";}
@@ -310,6 +312,7 @@
 .fa-cloud-sun:before {content: "";}
 .fa-cloud-sun-rain:before {content: "";}
 .fa-cloud-upload-alt:before {content: "";}
+.fa-cloudflare:before {content: "";}
 .fa-cloudscale:before {content: "";}
 .fa-cloudsmith:before {content: "";}
 .fa-cloudversify:before {content: "";}
@@ -378,9 +381,11 @@
 .fa-cuttlefish:before {content: "";}
 .fa-d-and-d:before {content: "";}
 .fa-d-and-d-beyond:before {content: "";}
+.fa-dailymotion:before {content: "";}
 .fa-dashcube:before {content: "";}
 .fa-database:before {content: "";}
 .fa-deaf:before {content: "";}
+.fa-deezer:before {content: "";}
 .fa-delicious:before {content: "";}
 .fa-democrat:before {content: "";}
 .fa-deploydog:before {content: "";}
@@ -407,6 +412,7 @@
 .fa-directions:before {content: "";}
 .fa-discord:before {content: "";}
 .fa-discourse:before {content: "";}
+.fa-disease:before {content: "";}
 .fa-divide:before {content: "";}
 .fa-dizzy:before {content: "";}
 .fa-dna:before {content: "";}
@@ -441,6 +447,7 @@
 .fa-earlybirds:before {content: "";}
 .fa-ebay:before {content: "";}
 .fa-edge:before {content: "";}
+.fa-edge-legacy:before {content: "";}
 .fa-edit:before {content: "";}
 .fa-egg:before {content: "";}
 .fa-eject:before {content: "";}
@@ -484,6 +491,7 @@
 .fa-fantasy-flight-games:before {content: "";}
 .fa-fast-backward:before {content: "";}
 .fa-fast-forward:before {content: "";}
+.fa-faucet:before {content: "";}
 .fa-fax:before {content: "";}
 .fa-feather:before {content: "";}
 .fa-feather-alt:before {content: "";}
@@ -524,7 +532,7 @@
 .fa-fire-alt:before {content: "";}
 .fa-fire-extinguisher:before {content: "";}
 .fa-firefox:before {content: "";}
-.fa-firefox-browser:before {content: "龜";}
+.fa-firefox-browser:before {content: "";}
 .fa-first-aid:before {content: "";}
 .fa-first-order:before {content: "";}
 .fa-first-order-alt:before {content: "";}
@@ -604,6 +612,7 @@
 .fa-goodreads-g:before {content: "";}
 .fa-google:before {content: "";}
 .fa-google-drive:before {content: "";}
+.fa-google-pay:before {content: "";}
 .fa-google-play:before {content: "";}
 .fa-google-plus:before {content: "";}
 .fa-google-plus-g:before {content: "";}
@@ -635,6 +644,7 @@
 .fa-grip-vertical:before {content: "";}
 .fa-gripfire:before {content: "";}
 .fa-grunt:before {content: "";}
+.fa-guilded:before {content: "";}
 .fa-guitar:before {content: "";}
 .fa-gulp:before {content: "";}
 .fa-h-square:before {content: "";}
@@ -646,7 +656,9 @@
 .fa-hamsa:before {content: "";}
 .fa-hand-holding:before {content: "";}
 .fa-hand-holding-heart:before {content: "";}
+.fa-hand-holding-medical:before {content: "";}
 .fa-hand-holding-usd:before {content: "";}
+.fa-hand-holding-water:before {content: "";}
 .fa-hand-lizard:before {content: "";}
 .fa-hand-middle-finger:before {content: "";}
 .fa-hand-paper:before {content: "";}
@@ -658,10 +670,14 @@
 .fa-hand-pointer:before {content: "";}
 .fa-hand-rock:before {content: "";}
 .fa-hand-scissors:before {content: "";}
+.fa-hand-sparkles:before {content: "";}
 .fa-hand-spock:before {content: "";}
 .fa-hands:before {content: "";}
 .fa-hands-helping:before {content: "";}
+.fa-hands-wash:before {content: "";}
 .fa-handshake:before {content: "";}
+.fa-handshake-alt-slash:before {content: "";}
+.fa-handshake-slash:before {content: "";}
 .fa-hanukiah:before {content: "";}
 .fa-hard-hat:before {content: "";}
 .fa-hashtag:before {content: "";}
@@ -669,6 +685,10 @@
 .fa-hat-cowboy-side:before {content: "";}
 .fa-hat-wizard:before {content: "";}
 .fa-hdd:before {content: "";}
+.fa-head-side-cough:before {content: "";}
+.fa-head-side-cough-slash:before {content: "";}
+.fa-head-side-mask:before {content: "";}
+.fa-head-side-virus:before {content: "";}
 .fa-heading:before {content: "";}
 .fa-headphones:before {content: "";}
 .fa-headphones-alt:before {content: "";}
@@ -683,6 +703,7 @@
 .fa-hips:before {content: "";}
 .fa-hire-a-helper:before {content: "";}
 .fa-history:before {content: "";}
+.fa-hive:before {content: "";}
 .fa-hockey-puck:before {content: "";}
 .fa-holly-berry:before {content: "";}
 .fa-home:before {content: "";}
@@ -693,6 +714,7 @@
 .fa-hospital:before {content: "";}
 .fa-hospital-alt:before {content: "";}
 .fa-hospital-symbol:before {content: "";}
+.fa-hospital-user:before {content: "";}
 .fa-hot-tub:before {content: "";}
 .fa-hotdog:before {content: "";}
 .fa-hotel:before {content: "";}
@@ -702,6 +724,7 @@
 .fa-hourglass-half:before {content: "";}
 .fa-hourglass-start:before {content: "";}
 .fa-house-damage:before {content: "";}
+.fa-house-user:before {content: "";}
 .fa-houzz:before {content: "";}
 .fa-hryvnia:before {content: "";}
 .fa-html5:before {content: "";}
@@ -713,7 +736,7 @@
 .fa-id-badge:before {content: "";}
 .fa-id-card:before {content: "";}
 .fa-id-card-alt:before {content: "";}
-.fa-ideal:before {content: "邏";}
+.fa-ideal:before {content: "";}
 .fa-igloo:before {content: "";}
 .fa-image:before {content: "";}
 .fa-images:before {content: "";}
@@ -724,7 +747,10 @@
 .fa-infinity:before {content: "";}
 .fa-info:before {content: "";}
 .fa-info-circle:before {content: "";}
+.fa-innosoft:before {content: "";}
 .fa-instagram:before {content: "";}
+.fa-instagram-square:before {content: "";}
+.fa-instalod:before {content: "";}
 .fa-intercom:before {content: "";}
 .fa-internet-explorer:before {content: "";}
 .fa-invision:before {content: "";}
@@ -763,6 +789,7 @@
 .fa-language:before {content: "";}
 .fa-laptop:before {content: "";}
 .fa-laptop-code:before {content: "";}
+.fa-laptop-house:before {content: "";}
 .fa-laptop-medical:before {content: "";}
 .fa-laravel:before {content: "";}
 .fa-lastfm:before {content: "";}
@@ -802,6 +829,8 @@
 .fa-long-arrow-alt-up:before {content: "";}
 .fa-low-vision:before {content: "";}
 .fa-luggage-cart:before {content: "";}
+.fa-lungs:before {content: "";}
+.fa-lungs-virus:before {content: "";}
 .fa-lyft:before {content: "";}
 .fa-magento:before {content: "";}
 .fa-magic:before {content: "";}
@@ -844,7 +873,7 @@
 .fa-menorah:before {content: "";}
 .fa-mercury:before {content: "";}
 .fa-meteor:before {content: "";}
-.fa-microblog:before {content: "駱";}
+.fa-microblog:before {content: "";}
 .fa-microchip:before {content: "";}
 .fa-microphone:before {content: "";}
 .fa-microphone-alt:before {content: "";}
@@ -858,6 +887,7 @@
 .fa-mitten:before {content: "";}
 .fa-mix:before {content: "";}
 .fa-mixcloud:before {content: "";}
+.fa-mixer:before {content: "";}
 .fa-mizuni:before {content: "";}
 .fa-mobile:before {content: "";}
 .fa-mobile-alt:before {content: "";}
@@ -894,6 +924,7 @@
 .fa-nutritionix:before {content: "";}
 .fa-object-group:before {content: "";}
 .fa-object-ungroup:before {content: "";}
+.fa-octopus-deploy:before {content: "";}
 .fa-odnoklassniki:before {content: "";}
 .fa-odnoklassniki-square:before {content: "";}
 .fa-oil-can:before {content: "";}
@@ -937,8 +968,10 @@
 .fa-pencil-alt:before {content: "";}
 .fa-pencil-ruler:before {content: "";}
 .fa-penny-arcade:before {content: "";}
+.fa-people-arrows:before {content: "";}
 .fa-people-carry:before {content: "";}
 .fa-pepper-hot:before {content: "";}
+.fa-perbyte:before {content: "";}
 .fa-percent:before {content: "";}
 .fa-percentage:before {content: "";}
 .fa-periscope:before {content: "";}
@@ -958,7 +991,7 @@
 .fa-pied-piper-alt:before {content: "";}
 .fa-pied-piper-hat:before {content: "";}
 .fa-pied-piper-pp:before {content: "";}
-.fa-pied-piper-square:before {content: "爛";}
+.fa-pied-piper-square:before {content: "";}
 .fa-piggy-bank:before {content: "";}
 .fa-pills:before {content: "";}
 .fa-pinterest:before {content: "";}
@@ -969,6 +1002,7 @@
 .fa-plane:before {content: "";}
 .fa-plane-arrival:before {content: "";}
 .fa-plane-departure:before {content: "";}
+.fa-plane-slash:before {content: "";}
 .fa-play:before {content: "";}
 .fa-play-circle:before {content: "";}
 .fa-playstation:before {content: "";}
@@ -994,6 +1028,8 @@
 .fa-procedures:before {content: "";}
 .fa-product-hunt:before {content: "";}
 .fa-project-diagram:before {content: "";}
+.fa-pump-medical:before {content: "";}
+.fa-pump-soap:before {content: "";}
 .fa-pushed:before {content: "";}
 .fa-puzzle-piece:before {content: "";}
 .fa-python:before {content: "";}
@@ -1057,6 +1093,7 @@
 .fa-ruler-vertical:before {content: "";}
 .fa-running:before {content: "";}
 .fa-rupee-sign:before {content: "";}
+.fa-rust:before {content: "";}
 .fa-sad-cry:before {content: "";}
 .fa-sad-tear:before {content: "";}
 .fa-safari:before {content: "";}
@@ -1089,10 +1126,12 @@
 .fa-share-square:before {content: "";}
 .fa-shekel-sign:before {content: "";}
 .fa-shield-alt:before {content: "";}
+.fa-shield-virus:before {content: "";}
 .fa-ship:before {content: "";}
 .fa-shipping-fast:before {content: "";}
 .fa-shirtsinbulk:before {content: "";}
 .fa-shoe-prints:before {content: "";}
+.fa-shopify:before {content: "";}
 .fa-shopping-bag:before {content: "";}
 .fa-shopping-basket:before {content: "";}
 .fa-shopping-cart:before {content: "";}
@@ -1107,6 +1146,7 @@
 .fa-signature:before {content: "";}
 .fa-sim-card:before {content: "";}
 .fa-simplybuilt:before {content: "";}
+.fa-sink:before {content: "";}
 .fa-sistrix:before {content: "";}
 .fa-sitemap:before {content: "";}
 .fa-sith:before {content: "";}
@@ -1138,6 +1178,7 @@
 .fa-snowflake:before {content: "";}
 .fa-snowman:before {content: "";}
 .fa-snowplow:before {content: "";}
+.fa-soap:before {content: "";}
 .fa-socks:before {content: "";}
 .fa-solar-panel:before {content: "";}
 .fa-sort:before {content: "";}
@@ -1193,8 +1234,11 @@
 .fa-stop:before {content: "";}
 .fa-stop-circle:before {content: "";}
 .fa-stopwatch:before {content: "";}
+.fa-stopwatch-20:before {content: "";}
 .fa-store:before {content: "";}
 .fa-store-alt:before {content: "";}
+.fa-store-alt-slash:before {content: "";}
+.fa-store-slash:before {content: "";}
 .fa-strava:before {content: "";}
 .fa-stream:before {content: "";}
 .fa-street-view:before {content: "";}
@@ -1265,6 +1309,7 @@
 .fa-thumbs-up:before {content: "";}
 .fa-thumbtack:before {content: "";}
 .fa-ticket-alt:before {content: "";}
+.fa-tiktok:before {content: "";}
 .fa-times:before {content: "";}
 .fa-times-circle:before {content: "";}
 .fa-tint:before {content: "";}
@@ -1274,6 +1319,7 @@
 .fa-toggle-on:before {content: "";}
 .fa-toilet:before {content: "";}
 .fa-toilet-paper:before {content: "";}
+.fa-toilet-paper-slash:before {content: "";}
 .fa-toolbox:before {content: "";}
 .fa-tools:before {content: "";}
 .fa-tooth:before {content: "";}
@@ -1283,7 +1329,7 @@
 .fa-trade-federation:before {content: "";}
 .fa-trademark:before {content: "";}
 .fa-traffic-light:before {content: "";}
-.fa-trailer:before {content: "論";}
+.fa-trailer:before {content: "";}
 .fa-train:before {content: "";}
 .fa-tram:before {content: "";}
 .fa-transgender:before {content: "";}
@@ -1316,16 +1362,18 @@
 .fa-umbraco:before {content: "";}
 .fa-umbrella:before {content: "";}
 .fa-umbrella-beach:before {content: "";}
+.fa-uncharted:before {content: "";}
 .fa-underline:before {content: "";}
 .fa-undo:before {content: "";}
 .fa-undo-alt:before {content: "";}
 .fa-uniregistry:before {content: "";}
-.fa-unity:before {content: "雷";}
+.fa-unity:before {content: "";}
 .fa-universal-access:before {content: "";}
 .fa-university:before {content: "";}
 .fa-unlink:before {content: "";}
 .fa-unlock:before {content: "";}
 .fa-unlock-alt:before {content: "";}
+.fa-unsplash:before {content: "";}
 .fa-untappd:before {content: "";}
 .fa-upload:before {content: "";}
 .fa-ups:before {content: "";}
@@ -1356,6 +1404,7 @@
 .fa-user-times:before {content: "";}
 .fa-users:before {content: "";}
 .fa-users-cog:before {content: "";}
+.fa-users-slash:before {content: "";}
 .fa-usps:before {content: "";}
 .fa-ussunnah:before {content: "";}
 .fa-utensil-spoon:before {content: "";}
@@ -1365,6 +1414,8 @@
 .fa-venus:before {content: "";}
 .fa-venus-double:before {content: "";}
 .fa-venus-mars:before {content: "";}
+.fa-vest:before {content: "";}
+.fa-vest-patches:before {content: "";}
 .fa-viacoin:before {content: "";}
 .fa-viadeo:before {content: "";}
 .fa-viadeo-square:before {content: "";}
@@ -1378,6 +1429,9 @@
 .fa-vimeo-square:before {content: "";}
 .fa-vimeo-v:before {content: "";}
 .fa-vine:before {content: "";}
+.fa-virus:before {content: "";}
+.fa-virus-slash:before {content: "";}
+.fa-viruses:before {content: "";}
 .fa-vk:before {content: "";}
 .fa-vnv:before {content: "";}
 .fa-voicemail:before {content: "";}
@@ -1392,6 +1446,7 @@
 .fa-walking:before {content: "";}
 .fa-wallet:before {content: "";}
 .fa-warehouse:before {content: "";}
+.fa-watchman-monitoring:before {content: "";}
 .fa-water:before {content: "";}
 .fa-wave-square:before {content: "";}
 .fa-waze:before {content: "";}
@@ -1417,6 +1472,7 @@
 .fa-wine-glass-alt:before {content: "";}
 .fa-wix:before {content: "";}
 .fa-wizards-of-the-coast:before {content: "";}
+.fa-wodu:before {content: "";}
 .fa-wolf-pack-battalion:before {content: "";}
 .fa-won-sign:before {content: "";}
 .fa-wordpress:before {content: "";}

@@ -32,7 +32,7 @@
 			/* <![CDATA[ */
 			var rcewpp = {
 				"ajax_url":"https://mbms.me/wp-admin/admin-ajax.php",
-				"nonce": "6e1e2be070",
+				"nonce": "8c1d7ee4a4",
 				"home_url": "https://mbms.me"
 			};
 			/* ]]\> */
@@ -676,10 +676,10 @@
 				<div class="elementor-widget-container">
 			<h2 class="elementor-heading-title elementor-size-default">Competition Showcase Video:</h2>		</div>
 				</div>
-				<div class="elementor-element elementor-element-61809f6 elementor-aspect-ratio-169 elementor-widget elementor-widget-video" data-id="61809f6" data-element_type="widget" data-settings='{"aspect_ratio":"169"}' data-widget_type="video.default">
+				<div class="elementor-element elementor-element-61809f6 elementor-aspect-ratio-169 elementor-widget elementor-widget-video" data-id="61809f6" data-element_type="widget" data-settings='{"youtube_url":"https:\/\/www.youtube.com\/watch?v=IMu0yYN8v3E","modestbranding":"yes","yt_privacy":"yes","video_type":"youtube","controls":"yes","aspect_ratio":"169"}' data-widget_type="video.default">
 				<div class="elementor-widget-container">
 					<div class="elementor-wrapper elementor-fit-aspect-ratio elementor-open-inline">
-			<iframe class="elementor-video-iframe" allowfullscreen title="youtube Video Player" src="https://www.youtube-nocookie.com/embed/IMu0yYN8v3E?feature=oembed&start&end&wmode=opaque&loop=0&controls=1&mute=0&rel=1&modestbranding=1"></iframe>		</div>
+			<div class="elementor-video"></div>		</div>
 				</div>
 				</div>
 				<div class="elementor-element elementor-element-e257d9c elementor-widget elementor-widget-text-editor" data-id="e257d9c" data-element_type="widget" data-widget_type="text-editor.default">
@@ -770,16 +770,30 @@
 <script type="text/javascript" src="https://mbms.me/wp-content/themes/wishful-blog/wishfulthemes/assets/js/custom-functions.js" id="wishful-blog-custom-functions-js"></script>
 <script type="text/javascript" src="https://mbms.me/wp-content/themes/wishful-blog/wishfulthemes/assets/slick/slick.min.js" id="wishful-blog-slick-js"></script>
 <script type="text/javascript" src="https://mbms.me/wp-content/themes/wishful-blog/js/skip-link-focus-fix.js" id="wishful-blog-skip-link-focus-fix-js"></script>
+<script type="text/javascript" src="https://mbms.me/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js" id="elementor-webpack-runtime-js"></script>
 <script type="text/javascript" src="https://mbms.me/wp-content/plugins/elementor/assets/js/frontend-modules.min.js" id="elementor-frontend-modules-js"></script>
 <script type="text/javascript" src="https://mbms.me/wp-includes/js/jquery/ui/core.min.js" id="jquery-ui-core-js"></script>
 <script type="text/javascript" src="https://mbms.me/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js" id="elementor-dialog-js"></script>
 <script type="text/javascript" src="https://mbms.me/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js" id="elementor-waypoints-js"></script>
-<script type="text/javascript" src="https://mbms.me/wp-content/plugins/elementor/assets/lib/swiper/swiper.min.js" id="swiper-js"></script>
 <script type="text/javascript" src="https://mbms.me/wp-content/plugins/elementor/assets/lib/share-link/share-link.min.js" id="share-link-js"></script>
+<script type="text/javascript" src="https://mbms.me/wp-content/plugins/elementor/assets/lib/swiper/swiper.min.js" id="swiper-js"></script>
+<script type="text/javascript" src="https://mbms.me/wp-includes/js/dist/vendor/wp-polyfill.min.js" id="wp-polyfill-js"></script>
+<script type="text/javascript" id="wp-polyfill-js-after">
+( 'fetch' in window ) || document.write( '<script src="https://mbms.me/wp-includes/js/dist/vendor/wp-polyfill-fetch.min.js?ver=3.0.0">' + 'ipt>' );( document.contains ) || document.write( '<script src="https://mbms.me/wp-includes/js/dist/vendor/wp-polyfill-node-contains.min.js?ver=3.42.0">' + 'ipt>' );( window.DOMRect ) || document.write( '<script src="https://mbms.me/wp-includes/js/dist/vendor/wp-polyfill-dom-rect.min.js?ver=3.42.0">' + 'ipt>' );( window.URL && window.URL.prototype && window.URLSearchParams ) || document.write( '<script src="https://mbms.me/wp-includes/js/dist/vendor/wp-polyfill-url.min.js?ver=3.6.4">' + 'ipt>' );( window.FormData && window.FormData.prototype.keys ) || document.write( '<script src="https://mbms.me/wp-includes/js/dist/vendor/wp-polyfill-formdata.min.js?ver=3.0.12">' + 'ipt>' );( Element.prototype.matches && Element.prototype.closest ) || document.write( '<script src="https://mbms.me/wp-includes/js/dist/vendor/wp-polyfill-element-closest.min.js?ver=2.0.2">' + 'ipt>' );
+</script>
+<script type="text/javascript" src="https://mbms.me/wp-includes/js/dist/i18n.min.js" id="wp-i18n-js"></script>
+<script type="text/javascript" id="elementor-frontend-js-translations">
+( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[""].domain = domain;
+	wp.i18n.setLocaleData( localeData, domain );
+} )( "elementor", { "locale_data": { "messages": { "": {} } } } );
+</script>
 <script type="text/javascript" id="elementor-frontend-js-before">
-var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"version":"3.0.16","is_static":false,"legacyMode":{"elementWrappers":true},"urls":{"assets":"https:\/\/mbms.me\/wp-content\/plugins\/elementor\/assets\/"},"settings":{"page":[],"editorPreferences":[]},"kit":{"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":178,"title":"1st%20MBMSP%20International%20Blacking%20Technique%20Competition%20%E2%80%93%20Results%20%E2%80%93%20MBMS","excerpt":"","featuredImage":false}};
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false,"isImprovedAssetsLoading":false},"i18n":[],"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"version":"3.1.0","is_static":false,"experimentalFeatures":[],"urls":{"assets":"https:\/\/mbms.me\/wp-content\/plugins\/elementor\/assets\/"},"settings":{"page":[],"editorPreferences":[]},"kit":{"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":178,"title":"1st%20MBMSP%20International%20Blacking%20Technique%20Competition%20%E2%80%93%20Results%20%E2%80%93%20MBMS","excerpt":"","featuredImage":false}};
 </script>
 <script type="text/javascript" src="https://mbms.me/wp-content/plugins/elementor/assets/js/frontend.min.js" id="elementor-frontend-js"></script>
+<script type="text/javascript" src="https://mbms.me/wp-content/plugins/elementor/assets/js/preloaded-elements-handlers.min.js" id="preloaded-elements-handlers-js"></script>
 
 </body>
 </html>

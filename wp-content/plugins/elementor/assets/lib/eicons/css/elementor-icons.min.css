@@ -1,4 +1,4 @@
-@font-face {font-family: eicons;src: url("../fonts/eicons.eot?5.9.1");src: url("../fonts/eicons.eot?5.9.1#iefix") format("embedded-opentype"),url("../fonts/eicons.woff2?5.9.1") format("woff2"),url("../fonts/eicons.woff?5.9.1") format("woff"),url("../fonts/eicons.ttf?5.9.1") format("truetype"),url("../fonts/eicons.svg?5.9.1#eicon") format("svg");font-weight: 400;font-style: normal;}
+@font-face {font-family: eicons;src: url("../fonts/eicons.eot?5.10.0");src: url("../fonts/eicons.eot?5.10.0#iefix") format("embedded-opentype"),url("../fonts/eicons.woff2?5.10.0") format("woff2"),url("../fonts/eicons.woff?5.10.0") format("woff"),url("../fonts/eicons.ttf?5.10.0") format("truetype"),url("../fonts/eicons.svg?5.10.0#eicon") format("svg");font-weight: 400;font-style: normal;}
 [class*=" eicon-"], [class^=eicon] {display: inline-block;font-family: eicons;font-size: inherit;font-weight: 400;font-style: normal;font-variant: normal;line-height: 1;text-rendering: auto;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;}
 @keyframes a {0% {transform: rotate(0deg);}
 	to {transform: rotate(359deg);}}
@@ -385,5 +385,15 @@
 .eicon-globe:before {content: "";}
 .eicon-typography-1:before {content: "";}
 .eicon-background:before {content: "";}
+.eicon-device-responsive:before {content: "";}
+.eicon-device-wide:before {content: "";}
+.eicon-code-highlight:before {content: "";}
+.eicon-video-playlist:before {content: "";}
+.eicon-download-kit:before {content: "";}
+.eicon-kit-details:before {content: "";}
+.eicon-kit-parts:before {content: "";}
+.eicon-kit-upload:before {content: "";}
+.eicon-kit-plugins:before {content: "";}
+.eicon-kit-upload-alt:before {content: "";}
 .eicon-eye:before {content: "";}
 .eicon-elementor-square:before {content: "";}
