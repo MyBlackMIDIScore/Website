@@ -2,13 +2,19 @@
 .elementor-24 .elementor-element.elementor-element-aed715a .elementor-heading-title {color: #000;font-family: "Amatic SC",Sans-serif;font-size: 61px;}
 .elementor-24 .elementor-element.elementor-element-fe0a2d9 {text-align: center;}
 .elementor-24 .elementor-element.elementor-element-fe0a2d9 .elementor-heading-title {color: #b36c23;font-family: "Advent Pro",Sans-serif;font-size: 24px;text-shadow: 0px 0px 10px rgba(0,0,0,.3);}
-.elementor-24 .elementor-element.elementor-element-b199a69 {--divider-border-style: solid;--divider-color: #000;--divider-border-width: 1px;}
-.elementor-24 .elementor-element.elementor-element-b199a69 .elementor-divider-separator {width: 100%;}
-.elementor-24 .elementor-element.elementor-element-b199a69 .elementor-divider {padding-top: 15px;padding-bottom: 15px;}
+.elementor-24 .elementor-element.elementor-element-b199a69 {--divider-border-style: dots_tribal;--divider-color: #000;--divider-pattern-height: 20px;}
+.elementor-24 .elementor-element.elementor-element-b199a69 .elementor-divider-separator {width: 75%;margin: 0 auto;margin-center: 0;}
+.elementor-24 .elementor-element.elementor-element-b199a69 .elementor-divider {text-align: center;padding-top: 15px;padding-bottom: 15px;}
 .elementor-24 .elementor-element.elementor-element-91ffa2d .elementor-image img {filter: brightness(0%) contrast(100%) saturate(100%) blur(0px) hue-rotate(0deg);}
 .elementor-24 .elementor-element.elementor-element-e5e1750 {--divider-border-style: solid;--divider-color: #000;--divider-border-width: 1px;}
-.elementor-24 .elementor-element.elementor-element-e5e1750 .elementor-divider-separator {width: 100%;}
-.elementor-24 .elementor-element.elementor-element-e5e1750 .elementor-divider {padding-top: 15px;padding-bottom: 15px;}
+.elementor-24 .elementor-element.elementor-element-e5e1750 .elementor-divider-separator {width: 50%;margin: 0 auto;margin-center: 0;}
+.elementor-24 .elementor-element.elementor-element-e5e1750 .elementor-divider {text-align: center;padding-top: 15px;padding-bottom: 15px;}
+.elementor-24 .elementor-element.elementor-element-3249c39 .elementor-text-editor {text-align: center;}
+.elementor-24 .elementor-element.elementor-element-3249c39 {color: #000;font-family: "Abel",Sans-serif;font-weight: 400;}
+.elementor-24 .elementor-element.elementor-element-3249c39 > .elementor-widget-container {border-radius: 3px 3px 3px 3px;box-shadow: 0px 0px 10px 0px rgba(0,0,0,.5);}
+.elementor-24 .elementor-element.elementor-element-c0088cb {--divider-border-style: solid;--divider-color: #000;--divider-border-width: 1px;}
+.elementor-24 .elementor-element.elementor-element-c0088cb .elementor-divider-separator {width: 50%;margin: 0 auto;margin-center: 0;}
+.elementor-24 .elementor-element.elementor-element-c0088cb .elementor-divider {text-align: center;padding-top: 15px;padding-bottom: 15px;}
 .elementor-24 .elementor-element.elementor-element-94dfa60 {text-align: center;}
 .elementor-24 .elementor-element.elementor-element-94dfa60 .elementor-heading-title {color: #000;font-family: "Amatic SC",Sans-serif;font-size: 31px;text-shadow: 0px 0px 10px rgba(0,0,0,.3);}
 .elementor-24 .elementor-element.elementor-element-eee5fd1 .elementor-icon-wrapper {text-align: center;}
@@ -28,8 +34,8 @@
 .elementor-24 .elementor-element.elementor-element-e83874f .elementor-text-editor {text-align: center;}
 .elementor-24 .elementor-element.elementor-element-e83874f > .elementor-widget-container {padding: 35px 35px 35px 35px;}
 .elementor-24 .elementor-element.elementor-element-3ca19c4 {--divider-border-style: solid;--divider-color: #000;--divider-border-width: 1px;}
-.elementor-24 .elementor-element.elementor-element-3ca19c4 .elementor-divider-separator {width: 100%;}
-.elementor-24 .elementor-element.elementor-element-3ca19c4 .elementor-divider {padding-top: 15px;padding-bottom: 15px;}
+.elementor-24 .elementor-element.elementor-element-3ca19c4 .elementor-divider-separator {width: 50%;margin: 0 auto;margin-center: 0;}
+.elementor-24 .elementor-element.elementor-element-3ca19c4 .elementor-divider {text-align: center;padding-top: 15px;padding-bottom: 15px;}
 .elementor-24 .elementor-element.elementor-element-dfe94d4 {text-align: center;}
 .elementor-24 .elementor-element.elementor-element-dfe94d4 .elementor-heading-title {color: #000;font-family: "Amatic SC",Sans-serif;font-size: 40px;text-shadow: 0px 0px 10px rgba(0,0,0,.3);}
 .elementor-24 .elementor-element.elementor-element-dfe94d4 > .elementor-widget-container {margin: 15px 15px 15px 15px;}
