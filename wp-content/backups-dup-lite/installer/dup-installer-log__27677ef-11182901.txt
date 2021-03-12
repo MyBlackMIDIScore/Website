@@ -1,0 +1,396 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 10:00:19
+* VERSION: 1.3.40.1
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.3.11                                |7.3.11
+OS__________________: WINNT                                 |WINNT
+CREATED_____________: 2021-02-11 18:29:01
+WP VERSION__________: 5.6.1
+DUP VERSION_________: 1.3.40.1
+DB__________________: 8.0.18
+DB TABLES___________: 14
+DB ROWS_____________: 2,640
+DB FILE SIZE________: 5.57MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.3.11 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11
+DOC ROOT____________: "C:/Program Files/Ampps/www/mbmssite"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://localhost/mbmssite/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ENGINE______: "ziparchive"
+SET DIR PERMS_______: 0
+DIR PERMS VALUE_____: 644
+SET FILE PERMS______: 0
+FILE PERMS VALUE____: 755
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "C:/Program Files/Ampps/www/mbmssite/20201228_mbms_[HASH]_20210211182901_archive.zip"
+SIZE________________: 112.89MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+
+
+START ZIP FILE EXTRACTION STANDARD >>> 
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "C:/Program Files/Ampps/www/mbmssite/20201228_mbms_[HASH]_20210211182901_archive.zip"
+SIZE________________: 112.89MBFile timestamp set to Current: 2021-02-23 22:00:26
+<<< ZipArchive Unzip Complete: true
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+
+PERMISSION UPDATES: None Applied
+
+STEP-1 COMPLETE @ 10:00:26 - RUNTIME: 6.9451 sec.
+[PHP ERR][WARN] MSG:mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) [CODE:2|FILE:C:\Program Files\Ampps\www\mbmssite\dup-installer\classes\class.db.php|LINE:48]
+DATABASE CONNECTION ERROR: Access denied for user 'root'@'localhost' (using password: NO)[ERRNO:1045]
+[PHP ERR][WARN] MSG:mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) [CODE:2|FILE:C:\Program Files\Ampps\www\mbmssite\dup-installer\classes\class.db.php|LINE:48]
+DATABASE CONNECTION ERROR: Access denied for user 'root'@'localhost' (using password: NO)[ERRNO:1045]
+[PHP ERR][WARN] MSG:mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) [CODE:2|FILE:C:\Program Files\Ampps\www\mbmssite\dup-installer\classes\class.db.php|LINE:48]
+DATABASE CONNECTION ERROR: Access denied for user 'root'@'localhost' (using password: NO)[ERRNO:1045]
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 10:03:43
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 8.0.18 -- Build Server: 8.0.18
+FILE SIZE:	dup-database__[HASH].sql (5.3MB)
+TIMEOUT:	5000
+MAXPACK:	1048576
+SQLMODE:	ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[C:/Program Files/Ampps/www/mbmssite/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	136
+
+wpna_commentmeta: (0)
+wpna_comments: (0)
+wpna_duplicator_packages: (0)
+wpna_export_page_to_html_logs: (0)
+wpna_links: (0)
+wpna_options: (167)
+wpna_postmeta: (2002)
+wpna_posts: (404)
+wpna_term_relationships: (12)
+wpna_term_taxonomy: (4)
+wpna_termmeta: (0)
+wpna_terms: (4)
+wpna_usermeta: (23)
+wpna_users: (1)
+Removed '24' cache/transient rows
+
+INSERT DATA RUNTIME: 0.5883 sec.
+STEP-2 COMPLETE @ 10:03:43 - RUNTIME: 0.6226 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 10:04:12
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "MBMS"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "C:/Program Files/Ampps/www/MBMS-Site"
+path_new______________: "C:/Program Files/Ampps/www/mbmssite"
+siteurl_______________: "http://localhost/mbmssite"
+url_old_______________: "http://localhost/MBMS-Site"
+url_new_______________: "http://localhost/mbmssite"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: "midisendmail@gmail.com"
+wp_nickname___________: "Jim"
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wpna_commentmeta"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpna_comments"___________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpna_duplicator_packages"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpna_export_page_to_html_logs"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpna_links"______________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpna_options"____________________________________[ROWS:   167][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/Program Files/Ampps/www/MBMS-Site" ============> "C:/Program Files/Ampps/www/mbmssite"
+	SEARCH  2:"C:\/Program Files\/Ampps\/www\/MBMS-Site" ========> "C:\/Program Files\/Ampps\/www\/mbmssite"
+	SEARCH  3:"C%3A%2FProgram+Files%2FAmpps%2Fwww%2FMBMS-Site" ==> "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fmbmssite"
+	SEARCH  4:"C:\Program Files\Ampps\www\MBMS-Site" ============> "C:/Program Files/Ampps/www/mbmssite"
+	SEARCH  5:"C:\\Program Files\\Ampps\\www\\MBMS-Site" ========> "C:\/Program Files\/Ampps\/www\/mbmssite"
+	SEARCH  6:"C%3A%5CProgram+Files%5CAmpps%5Cwww%5CMBMS-Site" ==> "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fmbmssite"
+	SEARCH  7:"//localhost/MBMS-Site" ===========================> "//localhost/mbmssite"
+	SEARCH  8:"\/\/localhost\/MBMS-Site" ========================> "\/\/localhost\/mbmssite"
+	SEARCH  9:"%2F%2Flocalhost%2FMBMS-Site" =====================> "%2F%2Flocalhost%2Fmbmssite"
+	SEARCH 10:"https://localhost/mbmssite" ======================> "http://localhost/mbmssite"
+	SEARCH 11:"https:\/\/localhost\/mbmssite" ===================> "http:\/\/localhost\/mbmssite"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fmbmssite" ==============> "http%3A%2F%2Flocalhost%2Fmbmssite"
+
+EVALUATE TABLE: "wpna_postmeta"___________________________________[ROWS:  2002][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/Program Files/Ampps/www/MBMS-Site" ============> "C:/Program Files/Ampps/www/mbmssite"
+	SEARCH  2:"C:\/Program Files\/Ampps\/www\/MBMS-Site" ========> "C:\/Program Files\/Ampps\/www\/mbmssite"
+	SEARCH  3:"C%3A%2FProgram+Files%2FAmpps%2Fwww%2FMBMS-Site" ==> "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fmbmssite"
+	SEARCH  4:"C:\Program Files\Ampps\www\MBMS-Site" ============> "C:/Program Files/Ampps/www/mbmssite"
+	SEARCH  5:"C:\\Program Files\\Ampps\\www\\MBMS-Site" ========> "C:\/Program Files\/Ampps\/www\/mbmssite"
+	SEARCH  6:"C%3A%5CProgram+Files%5CAmpps%5Cwww%5CMBMS-Site" ==> "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fmbmssite"
+	SEARCH  7:"//localhost/MBMS-Site" ===========================> "//localhost/mbmssite"
+	SEARCH  8:"\/\/localhost\/MBMS-Site" ========================> "\/\/localhost\/mbmssite"
+	SEARCH  9:"%2F%2Flocalhost%2FMBMS-Site" =====================> "%2F%2Flocalhost%2Fmbmssite"
+	SEARCH 10:"https://localhost/mbmssite" ======================> "http://localhost/mbmssite"
+	SEARCH 11:"https:\/\/localhost\/mbmssite" ===================> "http:\/\/localhost\/mbmssite"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fmbmssite" ==============> "http%3A%2F%2Flocalhost%2Fmbmssite"
+
+EVALUATE TABLE: "wpna_posts"______________________________________[ROWS:   404][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/Program Files/Ampps/www/MBMS-Site" ============> "C:/Program Files/Ampps/www/mbmssite"
+	SEARCH  2:"C:\/Program Files\/Ampps\/www\/MBMS-Site" ========> "C:\/Program Files\/Ampps\/www\/mbmssite"
+	SEARCH  3:"C%3A%2FProgram+Files%2FAmpps%2Fwww%2FMBMS-Site" ==> "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fmbmssite"
+	SEARCH  4:"C:\Program Files\Ampps\www\MBMS-Site" ============> "C:/Program Files/Ampps/www/mbmssite"
+	SEARCH  5:"C:\\Program Files\\Ampps\\www\\MBMS-Site" ========> "C:\/Program Files\/Ampps\/www\/mbmssite"
+	SEARCH  6:"C%3A%5CProgram+Files%5CAmpps%5Cwww%5CMBMS-Site" ==> "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fmbmssite"
+	SEARCH  7:"//localhost/MBMS-Site" ===========================> "//localhost/mbmssite"
+	SEARCH  8:"\/\/localhost\/MBMS-Site" ========================> "\/\/localhost\/mbmssite"
+	SEARCH  9:"%2F%2Flocalhost%2FMBMS-Site" =====================> "%2F%2Flocalhost%2Fmbmssite"
+	SEARCH 10:"https://localhost/mbmssite" ======================> "http://localhost/mbmssite"
+	SEARCH 11:"https:\/\/localhost\/mbmssite" ===================> "http:\/\/localhost\/mbmssite"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fmbmssite" ==============> "http%3A%2F%2Flocalhost%2Fmbmssite"
+
+EVALUATE TABLE: "wpna_term_relationships"_________________________[ROWS:    12][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/Program Files/Ampps/www/MBMS-Site" ============> "C:/Program Files/Ampps/www/mbmssite"
+	SEARCH  2:"C:\/Program Files\/Ampps\/www\/MBMS-Site" ========> "C:\/Program Files\/Ampps\/www\/mbmssite"
+	SEARCH  3:"C%3A%2FProgram+Files%2FAmpps%2Fwww%2FMBMS-Site" ==> "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fmbmssite"
+	SEARCH  4:"C:\Program Files\Ampps\www\MBMS-Site" ============> "C:/Program Files/Ampps/www/mbmssite"
+	SEARCH  5:"C:\\Program Files\\Ampps\\www\\MBMS-Site" ========> "C:\/Program Files\/Ampps\/www\/mbmssite"
+	SEARCH  6:"C%3A%5CProgram+Files%5CAmpps%5Cwww%5CMBMS-Site" ==> "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fmbmssite"
+	SEARCH  7:"//localhost/MBMS-Site" ===========================> "//localhost/mbmssite"
+	SEARCH  8:"\/\/localhost\/MBMS-Site" ========================> "\/\/localhost\/mbmssite"
+	SEARCH  9:"%2F%2Flocalhost%2FMBMS-Site" =====================> "%2F%2Flocalhost%2Fmbmssite"
+	SEARCH 10:"https://localhost/mbmssite" ======================> "http://localhost/mbmssite"
+	SEARCH 11:"https:\/\/localhost\/mbmssite" ===================> "http:\/\/localhost\/mbmssite"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fmbmssite" ==============> "http%3A%2F%2Flocalhost%2Fmbmssite"
+
+EVALUATE TABLE: "wpna_term_taxonomy"______________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/Program Files/Ampps/www/MBMS-Site" ============> "C:/Program Files/Ampps/www/mbmssite"
+	SEARCH  2:"C:\/Program Files\/Ampps\/www\/MBMS-Site" ========> "C:\/Program Files\/Ampps\/www\/mbmssite"
+	SEARCH  3:"C%3A%2FProgram+Files%2FAmpps%2Fwww%2FMBMS-Site" ==> "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fmbmssite"
+	SEARCH  4:"C:\Program Files\Ampps\www\MBMS-Site" ============> "C:/Program Files/Ampps/www/mbmssite"
+	SEARCH  5:"C:\\Program Files\\Ampps\\www\\MBMS-Site" ========> "C:\/Program Files\/Ampps\/www\/mbmssite"
+	SEARCH  6:"C%3A%5CProgram+Files%5CAmpps%5Cwww%5CMBMS-Site" ==> "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fmbmssite"
+	SEARCH  7:"//localhost/MBMS-Site" ===========================> "//localhost/mbmssite"
+	SEARCH  8:"\/\/localhost\/MBMS-Site" ========================> "\/\/localhost\/mbmssite"
+	SEARCH  9:"%2F%2Flocalhost%2FMBMS-Site" =====================> "%2F%2Flocalhost%2Fmbmssite"
+	SEARCH 10:"https://localhost/mbmssite" ======================> "http://localhost/mbmssite"
+	SEARCH 11:"https:\/\/localhost\/mbmssite" ===================> "http:\/\/localhost\/mbmssite"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fmbmssite" ==============> "http%3A%2F%2Flocalhost%2Fmbmssite"
+
+EVALUATE TABLE: "wpna_termmeta"___________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpna_terms"______________________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/Program Files/Ampps/www/MBMS-Site" ============> "C:/Program Files/Ampps/www/mbmssite"
+	SEARCH  2:"C:\/Program Files\/Ampps\/www\/MBMS-Site" ========> "C:\/Program Files\/Ampps\/www\/mbmssite"
+	SEARCH  3:"C%3A%2FProgram+Files%2FAmpps%2Fwww%2FMBMS-Site" ==> "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fmbmssite"
+	SEARCH  4:"C:\Program Files\Ampps\www\MBMS-Site" ============> "C:/Program Files/Ampps/www/mbmssite"
+	SEARCH  5:"C:\\Program Files\\Ampps\\www\\MBMS-Site" ========> "C:\/Program Files\/Ampps\/www\/mbmssite"
+	SEARCH  6:"C%3A%5CProgram+Files%5CAmpps%5Cwww%5CMBMS-Site" ==> "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fmbmssite"
+	SEARCH  7:"//localhost/MBMS-Site" ===========================> "//localhost/mbmssite"
+	SEARCH  8:"\/\/localhost\/MBMS-Site" ========================> "\/\/localhost\/mbmssite"
+	SEARCH  9:"%2F%2Flocalhost%2FMBMS-Site" =====================> "%2F%2Flocalhost%2Fmbmssite"
+	SEARCH 10:"https://localhost/mbmssite" ======================> "http://localhost/mbmssite"
+	SEARCH 11:"https:\/\/localhost\/mbmssite" ===================> "http:\/\/localhost\/mbmssite"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fmbmssite" ==============> "http%3A%2F%2Flocalhost%2Fmbmssite"
+
+EVALUATE TABLE: "wpna_usermeta"___________________________________[ROWS:    23][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/Program Files/Ampps/www/MBMS-Site" ============> "C:/Program Files/Ampps/www/mbmssite"
+	SEARCH  2:"C:\/Program Files\/Ampps\/www\/MBMS-Site" ========> "C:\/Program Files\/Ampps\/www\/mbmssite"
+	SEARCH  3:"C%3A%2FProgram+Files%2FAmpps%2Fwww%2FMBMS-Site" ==> "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fmbmssite"
+	SEARCH  4:"C:\Program Files\Ampps\www\MBMS-Site" ============> "C:/Program Files/Ampps/www/mbmssite"
+	SEARCH  5:"C:\\Program Files\\Ampps\\www\\MBMS-Site" ========> "C:\/Program Files\/Ampps\/www\/mbmssite"
+	SEARCH  6:"C%3A%5CProgram+Files%5CAmpps%5Cwww%5CMBMS-Site" ==> "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fmbmssite"
+	SEARCH  7:"//localhost/MBMS-Site" ===========================> "//localhost/mbmssite"
+	SEARCH  8:"\/\/localhost\/MBMS-Site" ========================> "\/\/localhost\/mbmssite"
+	SEARCH  9:"%2F%2Flocalhost%2FMBMS-Site" =====================> "%2F%2Flocalhost%2Fmbmssite"
+	SEARCH 10:"https://localhost/mbmssite" ======================> "http://localhost/mbmssite"
+	SEARCH 11:"https:\/\/localhost\/mbmssite" ===================> "http:\/\/localhost\/mbmssite"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fmbmssite" ==============> "http%3A%2F%2Flocalhost%2Fmbmssite"
+
+EVALUATE TABLE: "wpna_users"______________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/Program Files/Ampps/www/MBMS-Site" ============> "C:/Program Files/Ampps/www/mbmssite"
+	SEARCH  2:"C:\/Program Files\/Ampps\/www\/MBMS-Site" ========> "C:\/Program Files\/Ampps\/www\/mbmssite"
+	SEARCH  3:"C%3A%2FProgram+Files%2FAmpps%2Fwww%2FMBMS-Site" ==> "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fmbmssite"
+	SEARCH  4:"C:\Program Files\Ampps\www\MBMS-Site" ============> "C:/Program Files/Ampps/www/mbmssite"
+	SEARCH  5:"C:\\Program Files\\Ampps\\www\\MBMS-Site" ========> "C:\/Program Files\/Ampps\/www\/mbmssite"
+	SEARCH  6:"C%3A%5CProgram+Files%5CAmpps%5Cwww%5CMBMS-Site" ==> "C%3A%2FProgram+Files%2FAmpps%2Fwww%2Fmbmssite"
+	SEARCH  7:"//localhost/MBMS-Site" ===========================> "//localhost/mbmssite"
+	SEARCH  8:"\/\/localhost\/MBMS-Site" ========================> "\/\/localhost\/mbmssite"
+	SEARCH  9:"%2F%2Flocalhost%2FMBMS-Site" =====================> "%2F%2Flocalhost%2Fmbmssite"
+	SEARCH 10:"https://localhost/mbmssite" ======================> "http://localhost/mbmssite"
+	SEARCH 11:"https:\/\/localhost\/mbmssite" ===================> "http:\/\/localhost\/mbmssite"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fmbmssite" ==============> "http%3A%2F%2Flocalhost%2Fmbmssite"
+--------------------------------------
+SCANNED:	Tables:14 	|	 Rows:2617 	|	 Cells:18146 
+UPDATED:	Tables:3 	|	 Rows:640 	|	 Cells:872 
+ERRORS:		0 
+RUNTIME:	1.247600 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+NEW WP-ADMIN USER:
+ - Username 'mbms' already exists in the database.  Unable to create new account.
+
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME ""mbms""
+	UPDATE DB_USER ""root""
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+
+====================================
+NOTICES TEST
+====================================
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 10:04:13 - RUNTIME: 1.3165 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] Info
+	SECTIONS: general
+	LONG MSG:             The following is a list of notices that may need to be fixed in order to finalize your setup. These values should only be investigated if you're running into
+            issues with your site. For more details see the <a href="https://codex.wordpress.org/Editing_wp-config.php" target="_blank">WordPress Codex</a>.
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+-----------------------
+[WARNING] New admin user create error
+	SECTIONS: general
+	LONG MSG: 
+NEW WP-ADMIN USER:
+ - Username 'mbms' already exists in the database.  Unable to create new account.
+
+
+====================================
